@@ -10,7 +10,6 @@ const Main = () => {
         lastName: '',
         email: '',
         password: '',
-
     })
 
     const {firstName, lastName, email, password} = formState;
