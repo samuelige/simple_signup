@@ -1,6 +1,7 @@
 import logo from '../assets/logo.png';
 import illustration from '../assets/illustration.png';
-import google from '../assets/google.png';
+import app_store from '../assets/app_store.png'
+import play_store from '../assets/play_store.png'
 
 
-export {logo, illustration, google};
+export {logo, illustration, app_store, play_store};
