@@ -2,11 +2,12 @@
 
 :root {
   --font-base: 'Poppins';
-  
+
   --white-color: #ffffff;
   --black-color: #000000;
-  --darkCharcoal: #333333;
-  --chineseSilver: #CCCCCC;
+  --darkCharcoal-color: #333333;
+  --chineseSilver-color: #CCCCCC;
+  --chineseBlack-color: #111111;
   
 }
 

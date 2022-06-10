@@ -1,0 +1,28 @@
+.header_container {
+    display: flex;
+    padding: 0.6rem;
+    align-items: center;
+    border-bottom: 1px solid var(--chineseSilver-color );
+
+    .img_conatainer {
+        margin: 0 auto;
+
+        img {
+            width: 50px;
+        }
+    }
+
+    .header_btn {
+        width: 6rem;
+    }
+
+    @media screen and (max-width: 550px) {
+        justify-content: space-between;
+        
+        .img_conatainer {
+            margin: 0;
+        }
+    }
+
+}
+
