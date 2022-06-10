@@ -1,0 +1,27 @@
+.inputField_container {
+    width: 100%;
+    
+    
+    background: transparent;
+    outline: none;
+    margin-top: 1.5rem;
+
+    input {
+        margin-top: 0.3rem;
+        border: 1px solid var(--chineseSilver-color );
+        border-radius: 12px;
+        width: 100%;
+        font-size: 16px;
+        height: 3.5rem;
+        outline: none;
+        padding: 0.5rem;
+        
+    }
+
+
+
+    &:focus {
+        border: 1px solid #aaa;
+    }
+
+}

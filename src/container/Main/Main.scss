@@ -1,0 +1,62 @@
+.main_conatiner {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 3rem 0;
+
+    .main_image_conatainer {
+        width: 40%;
+        display: flex;
+        justify-content: center;
+
+        img {
+            width: 100%;
+            object-fit: contain;
+        }
+    }
+
+    .form_cotainer {
+        width: 50%;
+        margin: 0 auto;
+        padding-right: 2.5rem;
+
+        .checkBok_container {
+            margin-top: 2rem;
+            display: flex;
+            align-items: flex-start;
+            
+            p{
+                font-size: 0.6rem;
+                margin-left: 0.5rem;
+                color: var(--chineseBlack-color );
+            }
+        }
+
+        .form_btn {
+            margin-top: 2rem;
+        }
+    }
+
+    @media screen and (max-width: 900px) {
+        
+
+        .form_cotainer {
+            padding-right: 0rem;
+        }
+    }
+
+    @media screen and (max-width: 550px) {
+        flex-direction: column;
+        padding: 3rem 1rem;
+
+        .main_image_conatainer {
+            display: none;
+        }
+
+        .form_cotainer {
+            width: 100%;
+        }
+    }
+
+
+}

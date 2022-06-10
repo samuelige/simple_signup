@@ -3,12 +3,13 @@ import './Button.scss'
 
 interface BtnTypes {
     children: ReactNode;
-    handleClickEvent?: () => void ;
+    handleClickEvent?: () => void;
+    lg?: boolean;
 }
 
-const Button = ({children, handleClickEvent}: BtnTypes) => {
+const Button = ({children, handleClickEvent, lg}: BtnTypes) => {
   return (
-    <button className="btn_container" onClick={handleClickEvent}>
+    <button className={!lg ? "btn_container" : "lg_btn_container"} onClick={handleClickEvent}>
         {children}
     </button>
   )
